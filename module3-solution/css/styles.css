@@ -1,0 +1,114 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #22222f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+  
+}
+
+.container {
+	padding: 0;
+	text-align: : center;
+	margin: 15px;
+
+
+}
+
+/** box 1 2 3 **/
+
+.row {
+  width: 100%;
+}
+
+
+.text {
+color: grey;
+text-align: justify;
+font-family: monospace;
+white-space: normal;
+clear: right;
+padding: 10px;
+font-size: 100%
+margin: 10px 10px 10px 10px;
+
+}
+
+.box1 {
+  background-color: black;
+  margin: 10px 10px 10px 35px;
+ 
+}
+
+/** Navbar styles **/
+
+#brand {
+	font-family:monospace;
+	font-size: 25px;
+	float: left;
+	color: black;
+	font-size: 2.5em;
+	border: 0;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+#nav-list {
+  margin-top: 0px;
+  background-color: yellow;
+
+}
+
+#nav-list a {
+  color: blue;
+  text-align: center;
+}
+
+#nav-list  a :hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+
+
+/**  Menu Button **/
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+ 
+  }
+
